@@ -17,6 +17,11 @@ const PessoaSchema = new mongoose.Schema({
         required: true
     },
 
+    sexo: {
+        type: String,
+        required: true
+    },
+
     descricao: {
         type: String,
         required: true
@@ -25,3 +30,4 @@ const PessoaSchema = new mongoose.Schema({
 })
 
 module.exports = mongoose.model('Pessoa', PessoaSchema)
+

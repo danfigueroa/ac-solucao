@@ -22,6 +22,16 @@ const PessoaSchema = new mongoose.Schema({
         required: true
     },
 
+    email: {
+        type: String,
+        required: false
+    },
+
+    celular: {
+        type: String,
+        required: false
+    },
+
     descricao: {
         type: String,
         required: true
